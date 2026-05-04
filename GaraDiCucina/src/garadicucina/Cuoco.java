@@ -5,7 +5,7 @@
 package garadicucina;
 
 /**
- *
+ * Thread del cuoco
  * @author aureli.giulia
  */
 public class Cuoco extends Thread{

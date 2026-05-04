@@ -7,7 +7,7 @@ package garadicucina;
 import java.util.Random;
 
 /**
- *
+ * Monitor della cucina
  * @author aureli.giulia
  */
 public class Cucina {

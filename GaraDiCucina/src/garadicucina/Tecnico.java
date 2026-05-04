@@ -5,7 +5,7 @@
 package garadicucina;
 
 /**
- *
+ * Thraed dle tecnico
  * @author aureli.giulia
  */
 public class Tecnico extends Thread{
@@ -23,6 +23,7 @@ public class Tecnico extends Thread{
     public void run(){
         try {
             c.aggiustaFornello();
+            System.out.println("il tecnico ha aggiustato i fornelli");
         } catch (InterruptedException ie) {
             System.getLogger(ie.getMessage());
         }
